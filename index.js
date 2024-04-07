@@ -5,7 +5,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
 
-const target = 'http://185.177.125.251:8080';
+const target = 'https://thin-starfish-17.telebit.io/hls/';
 
 // Create the proxy middleware
 const mathProxy = createProxyMiddleware({
