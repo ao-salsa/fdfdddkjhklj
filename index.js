@@ -5,7 +5,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
 
-const target = 'https://thin-starfish-17.telebit.io/hls/';
+const target = 'https://ignores.top/';
 
 // Create the proxy middleware
 const mathProxy = createProxyMiddleware({
